@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sadad Login</title>
+    <link href="assets/img/Vector.png" rel="icon"/>
+    <link rel="stylesheet" href="assets/css/loginStyle.css">
+  </head>
+  <body>
+    <div class="center">
+      <h1>Login</h1>
+      <form action="index.html" method="post">
+        <div class="txt_field">
+          <input type="text" required id="Email">
+          <span></span>
+          <label>Email</label>
+        </div>
+        <div class="txt_field">
+          <input type="password" required id="PassWord">
+          <span></span>
+          <label>Password</label>
+        </div>
+        <div class="pass"><a href="resetPassword.html" style="text-decoration:none ;">Forgot Password?</a></div>
+        <input type="button" value="Login" id="btn">
+        <div class="signup_link">
+          go to customer login? <a href="loginCustomer.html">here</a>
+        </div>
+      </form>
+    </div>
+    
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="script/login.js"></script>
+
+    
+  </body>
+</html>

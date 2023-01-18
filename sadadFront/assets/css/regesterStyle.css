@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,400&display=swap');
+
+*{
+    margin:0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background: linear-gradient(120deg,#2980b9, #8e44ad);
+    padding: 0 10px;
+}
+
+.wrapper{   
+    max-width: 500px;
+    width: 100%;
+    background-color: #fff;
+    margin: 200px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 1px , 1px, 2px , #2B3A55;
+}
+
+.wrapper .title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #2B3A55;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.wrapper .form{
+    width: 100%;
+}
+
+.wrapper .form .input_field{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper .form .input_field label{
+    width: 200px;
+    color: #2B3A55;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.wrapper .form .input_field .input{
+    width: 100%;
+    outline: none;
+    border: 1px solid #2B3A55;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+.wrapper .form .input_field .input:focus{
+    border: 1px solid #E8C4C4;
+}
+
+.wrapper .form .input_field .btn{
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 15px;
+    border: 0;
+    background-color:#2980b9;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+}
+
+.CustomerList{
+    margin-left: 10px;
+    padding: 10px;
+    align-items: center;
+    width : 100px;
+    height: auto;
+    font-size: 24px;
+    background-color: aqua;
+}
+    
